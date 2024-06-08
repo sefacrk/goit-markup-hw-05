@@ -520,9 +520,12 @@ a {
 }
 .privacy {
   color: #4d5ae5;
-flex-direction: row;
 }
-.send-btn {
+.visually-hidden:checked {
+  border: none;
+  fill: #F4F4FD;
+}
+form .send-btn {
   display: block;
   min-width: 169px;
   height: 56px;
@@ -557,6 +560,9 @@ flex-direction: row;
 }
 .modal-content {
   margin-bottom: 8px;
+}
+.modal-content-com {
+  margin-bottom: 16px;
 }
 .modal-input {
   font-size: 12px;
@@ -605,6 +611,8 @@ flex-direction: row;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 360px;
+  height: 16px;
 }
 
 .class-person-name:focus {
@@ -681,10 +689,6 @@ flex-direction: row;
   align-items: center;
   justify-content: center;
   fill: transparent;  
-}
-.visually-hidden +span {
-  background-color: #404bbf;
-  border: none;
 }
 
 .subscribe-container .subscribe-form .subscribe-input {
