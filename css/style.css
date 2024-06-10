@@ -525,6 +525,9 @@ a {
   border: none;
   background-color: #404bbf;
   fill: #F4F4FD;
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
 }
 form .send-btn {
   display: block;
@@ -685,7 +688,8 @@ form .send-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  fill: transparent;  
+  fill: transparent; 
+ 
 }
 
 .subscribe-container .subscribe-form .subscribe-input {
