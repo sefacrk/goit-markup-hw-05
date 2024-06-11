@@ -525,9 +525,6 @@ a {
   border: none;
   background-color: #404bbf;
   fill: #F4F4FD;
-  width: 16px;
-  height: 16px;
-  display: inline-flex;
 }
 form .send-btn {
   display: block;
@@ -563,8 +560,9 @@ form .send-btn {
   border: none;
 }
 .modal-content {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
+
 
 .modal-input {
   font-size: 12px;
@@ -689,7 +687,11 @@ form .send-btn {
   align-items: center;
   justify-content: center;
   fill: transparent; 
- 
+  width: 16px;
+  height: 16px;
+}
+.approval-content > .approval-span {
+  display: inline-flex;
 }
 
 .subscribe-container .subscribe-form .subscribe-input {
