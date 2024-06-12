@@ -610,9 +610,7 @@ form .send-btn {
   margin-bottom: 24px;
 }
 .approval .approval-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
   width: 360px;
   height: 16px;
 }
@@ -691,6 +689,7 @@ form .send-btn {
   fill: transparent; 
   width: 16px;
   height: 16px;
+  
 }
 
 
